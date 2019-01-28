@@ -1,0 +1,29 @@
+{
+  "name": "tron-tests",
+  "version": "0.0.1",
+  "description": "Tron TRX tests for HD wallet generation &amp; transaction send.",
+  "main": "tron-wallet-gen.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodyce/tron-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodyce/tron-tests/issues"
+  },
+  "homepage": "https://github.com/rodyce/tron-tests#readme",
+  "dependencies": {
+    "bip39": "^2.5.0",
+    "hdkey": "^1.1.0",
+    "tronweb": "^2.1.30"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.1"
+  }
+}
